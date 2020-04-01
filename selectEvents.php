@@ -133,6 +133,7 @@ $conn = null;
 						</div>
 					</p>";
 			}
+			echo "<p>After all records are deleted, you will be given a link to insert a new set of records</p>";
 		}else{
 			echo "<h1>No records returned</h1>";
 			echo "<a href='reset_recoreds.php?source=$_SERVER[PHP_SELF]'>Fill the database again</a>"; 
